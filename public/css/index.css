@@ -1,5 +1,4 @@
 
-/* 学历篇 */
 * {
     margin: 0;
     padding: 0;
@@ -7,16 +6,30 @@
 body {
     width: 1519px;
 }
+/* 学历篇 */
 .Education {
    width: 100%;
    height: 500px;
    background: -webkit-linear-gradient(left top,rgb(40, 221, 245),rgb(80, 27, 228));
 }
 .Education .color {
+    position: relative;
     width: 100%;
     height: 100%;
     background: rgba(0,0,0,.1);
 }
+.action {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 500px;
+    /* background-color: #55f;
+    background: url(); */
+}
+
+
+/* 间隔 */
 .joinus {
     width: 100%;
     height: 100px;
@@ -63,6 +76,9 @@ body {
     color: hsl(0, 100%, 50%);
     background: url(../images/jianci.jpg) 0 -200px no-repeat ;
 }
+
+
+
 /* 经验篇 */
 .experience {
     width: 100%;
