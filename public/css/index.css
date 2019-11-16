@@ -23,11 +23,11 @@ ul {
 }
 .action {
     position: absolute;
-    top: 0;
+    top: 70px;
     left: 0;
     width: 500px;
-    height: 500px;
-    /* overflow: hidden; */
+    height: 350px;
+    overflow: hidden;
 }
 .action::after {
     content:'';
@@ -50,14 +50,17 @@ ul {
     background: rgba(0,0,0,.5);
 }
 .slideshow {
-    width: 2000px;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 2500px;
     height: 100%;
     background-color: #55f;
 }
 .slideshow li {
     float: left;
     width: 500px;
-    height: 500px;
+    height: 100%;
 }
 .slideshow li a {
     display:block;
@@ -65,10 +68,20 @@ ul {
     height: 100%;
 }
 .slideshow li:nth-child(1) {
-    background: url(../images/shanggan.jpg) no-repeat 0 75px;
+    background: url(../images/xiaoxue.jpg) no-repeat;
 }
 .slideshow li:nth-child(2) {
-    background: url(../images/xiaoxue.jpg) no-repeat 0 65px;
+    background: url(../images/shanggan.jpg) no-repeat;    
+}
+.slideshow li:nth-child(3) {
+    background: url(../images/gaozhong.png) no-repeat;
+}
+.slideshow li:nth-child(4) {
+    background: url(../images/jianci.jpg) no-repeat;
+    background-size: 100% 100% ;
+}
+.slideshow li:nth-child(5) {
+    background: url(../images/xiaoxue.jpg) no-repeat;
 }
 
 /* 间隔 */
